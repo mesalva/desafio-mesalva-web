@@ -132,3 +132,7 @@ GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web/introducao-a-geogr
   "pagination": null
 }
 ```
+
+## Como enviar o desafio
+
+Envie o link do seu projeto no github para a pessoa que entrou em contato com você. Se possível, disponibilize o seu projeto na web, para que o time possa testar a interface sua solução.
