@@ -18,3 +18,7 @@ O desafio será implementar um "console de aulas", que apresente conteúdos vari
 Abaixo segue um esquema de base para a sua solução, porém fique à vontade para usar essa referência ou não:
 
 
+![Aula em vídeo](https://user-images.githubusercontent.com/29892001/157113207-e5c0b933-3361-4af7-a4c2-44c677e28027.png)
+![Aula em texto](https://user-images.githubusercontent.com/29892001/157113226-31d6a6a3-55c1-4862-a447-75a9d5298a25.png)
+![Exercício](https://user-images.githubusercontent.com/29892001/157113253-117fa7cd-dc7f-49ca-86f6-2ec7fbc3ddd8.png)
+![Exercício respondido](https://user-images.githubusercontent.com/29892001/157113262-abd5df64-c3e8-4bda-8355-fcd5c19ddf73.png)
