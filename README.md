@@ -6,14 +6,14 @@ Esse repositório foi criado para explicar o desafio técnico aplicado para cand
 
 O desafio será implementar um "console de aulas", que apresente conteúdos variados (vídeo, texto e exercício) relacionados à uma lista de estudos. O desafio deverá conter as seguintes funcionalidades:
 
-- Lista de conteúdos
+- Lista de estudos
 - Apresentação de um conteúdo completo
-- Cada item da lista de conteúdos deverá ter um identificador do seu tipo (vídeo, texto e exercício)
-- Ao clicar em um item da lista o seu conteúdo relacionado deverá ser mostrado
-- Após um conteúdo ter sido consumido (respondido/assistido) deverá ser sinalizado para o usuário que ele já consumiu aquele item anteriormente
-- Se a página for recarregada, a lista deverá apresentar a mesma sinalização indicada no item acima
-- Um exercício deve ter a possibilidade de seleção de uma alterativa
-- Após a seleção da alternativa o usuário poderá "VER A CORREÇÃO"
+- Cada item da lista de estudos deverá ter um identificador do seu tipo (vídeo, texto e exercício)
+- Ao clicar em um item da lista de estudos o seu conteúdo relacionado deverá ser mostrado para o estudante
+- Deverá ser sinalizado na lista de estudos quando um conteúdo já foi consumido (respondido/assistido)
+- Se a página for carregada, a lista de estudos deverá manter a sinalização de quais conteúdos já foram consumidos (respondido/assistido)
+- Um exercício deve ter a possibilidade de seleção de uma alternativa
+- Após a seleção da alternativa o estudante poderá "VER A CORREÇÃO"
 
 ## Telas
 
@@ -30,7 +30,7 @@ Abaixo segue um esquema de base para a sua solução, porém fique à vontade pa
 
 ## Tecnologias
 
-Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para usa-lás ou não:
+Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para usá-las ou não:
 
 - Typescript
 - React
@@ -44,23 +44,23 @@ Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para usa
 
 ### Principal
 
-- Utilização de alguma lib/framework em javascript como React, VueJs ou Angular
 - Documentação (explique sobre as suas decisões técnicas, requisitos e arquitetura)
-- Testes (muito importante)
+- Testes (muito importante!)
 - Arquitetura do projeto e organização
 - Código (nome de variáveis, modularização, padronização, reutilização)
-- Preocupação com a usuabilidade
+- Preocupação com a usabilidade
 
 ### Secundário
+- Utilização de alguma lib/framework em javascript como React, VueJs ou Angular
 - Interface responsiva
 - Uso de typescript
-- Preocupação com performace
+- Preocupação com performance
 
-:warning: Procure não usar lib, frameworks e pacotes, tanto para o css quanto para componentes, como Bootstrap e AntDesign por exemplo, pois queremos ver o seu conhecimento nessas tecnologias.
+:warning: Procure não usar libs para o css e com componentes prontos, como Bootstrap e AntDesign por exemplo, pois queremos ver os seus conhecimentos nessas tecnologias.
 
 ## Api
 
-Para realizar as requisições, você deverá usar a seguintes rota:
+Para realizar as requisições, você deverá usar as seguintes rotas:
 
 GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web.json
 
@@ -79,7 +79,7 @@ GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web.json
       {
         "type": "video",
         "title": "Introdução à Geografia",
-        "slug": "desafio-mesalva-web/introducao-a-geografia"
+        "slug": "introducao-a-geografia"
       },
       ...
     ]
@@ -91,7 +91,7 @@ GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web.json
 
 ```
 
-No caso acima, para fazer pegar o conteúdo do primeiro item da lista, você deverá fazer uma requisão para:
+No caso acima, para fazer pegar o conteúdo do primeiro item da lista, você deverá fazer uma requisição para:
 
 GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web/introducao-a-geografia.json
 
@@ -103,7 +103,7 @@ GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web/introducao-a-geogr
   "result": {
     "title": "Introdução à Geografia",
     "type": "video",
-    "slug": "desafio-mesalva-web/introducao-a-geografia",
+    "slug": "introducao-a-geografia",
     "description": "Xuxuzada marota do Me Salva!, bem vindos. Nesta aula vamos falar dela, da icônica, da maravilinda, da fantasticobulosa... GEOGRAFIA! E de como ela aparece na tua prova do ENEM, também.",
     "children": [
       {
@@ -137,4 +137,4 @@ GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web/introducao-a-geogr
 
 ## Como enviar o desafio
 
-Envie o link do seu projeto no github para a pessoa que entrou em contato com você. Se possível, disponibilize o seu projeto na web, para que o time possa testar a interface sua solução.
+Envie o link do seu projeto no github para a pessoa que entrou em contato com você. Se possível, disponibilize o seu projeto na web, para que o time possa testar a sua solução.
