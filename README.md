@@ -47,7 +47,7 @@ Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para us�
 - Documentação (explique sobre as suas decisões técnicas, requisitos e arquitetura)
 - Testes (muito importante!)
 - Arquitetura do projeto e organização
-- Código (nome de variáveis, modularização, padronização, reutilização)
+- Código (nomenclaturas, modularização, padronização, reutilização)
 - Preocupação com a usabilidade
 
 ### Secundário
