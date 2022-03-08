@@ -19,7 +19,6 @@ O desafio será implementar um "console de aulas", que apresente conteúdos vari
 
 Abaixo segue um esquema de base para a sua solução, porém fique à vontade para usar essa referência ou não:
 
-
 ![Aula em vídeo](https://user-images.githubusercontent.com/29892001/157113207-e5c0b933-3361-4af7-a4c2-44c677e28027.png)
 
 ![Aula em texto](https://user-images.githubusercontent.com/29892001/157113226-31d6a6a3-55c1-4862-a447-75a9d5298a25.png)
@@ -51,6 +50,7 @@ Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para us�
 - Preocupação com a usabilidade
 
 ### Secundário
+
 - Utilização de alguma lib/framework em javascript como React, VueJs ou Angular
 - Interface responsiva
 - Uso de typescript
@@ -62,7 +62,7 @@ Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para us�
 
 Para realizar as requisições, você deverá usar as seguintes rotas:
 
-GET: https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web
+GET: <https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web>
 
 ```json
 // Exemplo de resposta:
@@ -93,7 +93,7 @@ GET: https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web
 
 No caso acima, para fazer pegar o conteúdo do primeiro item da lista, você deverá fazer uma requisição para:
 
-GET: https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web/introducao-a-geografia
+GET: <https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web/introducao-a-geografia>
 
 ```json
 {
