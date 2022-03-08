@@ -62,7 +62,7 @@ Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para us�
 
 Para realizar as requisições, você deverá usar as seguintes rotas:
 
-GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web.json
+GET: https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web
 
 ```json
 // Exemplo de resposta:
@@ -93,7 +93,7 @@ GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web.json
 
 No caso acima, para fazer pegar o conteúdo do primeiro item da lista, você deverá fazer uma requisição para:
 
-GET: https://cdnqa.mesalva.com/data/pages/desafio-mesalva-web/introducao-a-geografia.json
+GET: https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web/introducao-a-geografia
 
 ```json
 {
