@@ -55,6 +55,7 @@ Aqui no Me Salva! usamos as seguintes tecnologias, mas fique à vontade para us�
 - Interface responsiva
 - Uso de typescript
 - Preocupação com performance
+- Usar padrões de CSS, como o [BEM](https://en.bem.info/) ou outro
 
 :warning: Procure não usar libs para o css e com componentes prontos, como Bootstrap e AntDesign por exemplo, pois queremos ver os seus conhecimentos nessas tecnologias.
 
