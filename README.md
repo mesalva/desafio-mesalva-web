@@ -92,7 +92,7 @@ GET: <https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web>
 
 ```
 
-No caso acima, para fazer pegar o conteúdo do primeiro item da lista, você deverá fazer uma requisição para:
+No caso acima, para pegar o conteúdo do primeiro item da lista, você deverá fazer uma requisição para:
 
 GET: <https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web/introducao-a-geografia>
 
@@ -134,6 +134,12 @@ GET: <https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web/introducao-a-geo
   },
   "pagination": null
 }
+```
+
+Ou seja, para pegar os outros conteúdos, você deve utilizar o slug de cada item:
+
+```
+https://bff-qa.mesalva.com/json/pages/desafio-mesalva-web/{SLUG_DO_ITEM}
 ```
 
 ## Como enviar o desafio
